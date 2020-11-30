@@ -21,7 +21,7 @@ for this exercise.
 - Use Node v.12 or higher.
 
 Some recommendations to get Started (but absolutely not required here):
-- Initialize Create React App: https://create-react-app.dev/docs/adding-typescript/
+- Initialize with Create React App: https://create-react-app.dev/docs/adding-typescript/
 - Use a React Map Component Lib (not required)
 
 ### Backend
