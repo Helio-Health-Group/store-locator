@@ -20,9 +20,9 @@ for this exercise.
 - Use a npm package.json file to capture all dependencies (Running Create React App does this for you)
 - Use Node v.12 or higher.
 
-Some recommendations to get Started (but not required):
-- Boostrap with Create React App: https://create-react-app.dev/docs/adding-typescript/
-- Use a React Mapping Library (not required)
+Some recommendations to get Started (but absolutely not required here):
+- Initialize Create React App: https://create-react-app.dev/docs/adding-typescript/
+- Use a React Map Component Lib (not required)
 
 ### Backend
 Is just a simple service using MongoDB to run a distance search against the Lat/Lng. The `stores.json` is in the stores
