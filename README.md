@@ -29,11 +29,12 @@ Is just a simple service using MongoDB to run a distance search against the Lat/
 collection and called with the `http://localhost:3000/api/stores` endpoint. Again, you are free to modify this service
 as needed, but please take note of your changes, so they can be accounted for in the review.
 
-To install go to the root of the backend and run `npm install`. After installation is complete you should be able to
+To install go to the root of the backend and run `npm install`. After installation is complete, you should be able to
 run the service.
-To run, put the attached .env file in the root of the backend and run `npm start` from the backend root.
+To run, put the attached .env file in the root of the backend and run `npm start` from the backend root, or add the
+env variables to your system/user/run environment.
 
-Note: the .env file contains the 3 env variables needed to run the example app. If you do not have it let the Helio
+Note: the .env file contains the 2 env variables needed to run the backend app. If you do not have it let the Helio
 contact know!
 
 ### Frontend
@@ -42,10 +43,15 @@ This is the target for the rewrite. It currently works well if run locally eithe
 the core requirements are met. Note: a dev FE webserver is not included here install an NPM one if it is desired to try
 out the Pure JS example.
 
+Also, you will need to install the Google Maps Key. If for some reason you did not get one, let us know. Or else you are 
+free to use your own if you want (they are free), but please let us know if you do not include it in the submission.
+
 Final Notes:
 
 - Submit your own work! It's ok to use code-snippets from the old version, and/or stack-overflow, but paraphrase or 
 rewrite in the spirit/purpose of the functionality of this app.
 - Your choice of libraries are up to you. Be prepared to explain your choices here.
-- Feel free to choose or improve the styling, it's not required, but it can help!
+- Feel free to choose or improve the UI/styling, it's not required, but it can help!
 - There are bugs and simple input behavior in this example - try to fix/improve them!
+- For submission please zip up the project minus the npm modules or any other files excluded by the .gitignore, 
+  and send it back via email. Feel free to ask any questions if unsure here.
