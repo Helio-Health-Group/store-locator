@@ -43,8 +43,9 @@ This is the target for the rewrite. It currently works well if run locally eithe
 the core requirements are met. Note: a dev FE webserver is not included here install an NPM one if it is desired to try
 out the Pure JS example.
 
-Also, you will need to install the Google Maps Key. If for some reason you did not get one, let us know. Or else you are 
-free to use your own if you want (they are free), but please let us know if you do not include it in the submission.
+Also, you will need to install the Google Maps Key in the index.html to try the sample and/or use in your own version. 
+If for some reason you did not get one, let us know. Or else you are free to use your own if you want (they are free), 
+but please let us know if you do not include it in the submission.
 
 Final Notes:
 
