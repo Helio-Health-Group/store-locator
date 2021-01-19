@@ -2,7 +2,7 @@
 
 ### Description
 
-This project is a good example of a Simple Store Finder. It was written by a junior programming using pure javascript
+This project is a good example of a Simple Store Finder. It was written using pure javascript
 front end code without any 3rd party libraries other than Google Maps. While it is a good example it can be made
 better! For this example we'd like to see it re-written in a React Frontend using functional react components
 and TypeScript. This is an open-ended exercise which allows you to pick which UI components/styling libraries you get
