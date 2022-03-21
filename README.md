@@ -3,7 +3,7 @@
 ### Description
 
 This project is a good example of a Simple Store Finder. It was written using pure javascript
-front end code without any 3rd party libraries other than Google Maps. While it is a good example it can be made
+front end code without any 3rd party libraries other than Google Maps/Axios. While it is a good example it can be made
 better! For this example we'd like to see it re-written in a React Frontend using functional react components
 and TypeScript. This is an open-ended exercise which allows you to pick which UI components/styling libraries you get
 to choose. 
@@ -34,7 +34,17 @@ run the service.
 To run, put the attached .env file in the root of the backend and run `npm start` from the backend root, or add the
 env variables to your system/user/run environment.
 
-Note: the .env file contains the 2 env variables needed to run the backend app. If you do not have it let the Helio
+Note: the .env file we attached in the email contains the 4 env variables needed to run the backend app
+
+`DB_USER=<user>`
+
+`DB_PASSWORD=<password>`
+
+`DB_SERVER=<hostname>`
+
+`MQ_API_KEY=<api_key>`
+
+If you do not have it let the Helio
 contact know!
 
 ### Frontend
@@ -43,11 +53,12 @@ This is the target for the rewrite. It currently works well if run locally eithe
 the core requirements are met. Note: a dev FE webserver is not included here install an NPM one if it is desired to try
 out the Pure JS example.
 
-Also, you will need to install the Google Maps Key in the index.html to try the sample and/or use in your own version. 
-If for some reason you did not get one, let us know. Or else you are free to use your own if you want (they are free), 
-but please let us know if you do not include it in the submission.
+Also, you will need to install the Google Maps Key in the index.html to try the sample and/or use in your own version.
+If for some reason you did not get one, let us know (our key should also be included in the .env file for your use). 
+You are also free to use your own if you want (they are free), but please let us know if you do not include it in 
+the submission. 
 
-Final Notes:
+### Final Notes:
 
 - Submit your own work! It's ok to use code-snippets from the old version, and/or stack-overflow, but paraphrase or 
 rewrite in the spirit/purpose of the functionality of this app.
@@ -55,4 +66,9 @@ rewrite in the spirit/purpose of the functionality of this app.
 - Feel free to choose or improve the UI/styling, it's not required, but it can help!
 - There are bugs and simple input behavior in this example - try to fix/improve them!
 - For submission please zip up the project minus the npm modules or any other files excluded by the .gitignore, 
-  and send it back via email. Feel free to ask any questions if unsure here.
+  and send it back via email. Feel free to email any questions or clarifications if unsure here.
+- There is no time limit, only what you need to complete this project.
+
+Thank you,
+
+HelioArgos Team
